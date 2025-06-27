@@ -29,8 +29,9 @@ candidate = pd.read_csv("data/candidate.csv")
 import numpy as np
 from ax.service.ax_client import AxClient, ObjectiveProperties
 
-from ax.modelbridge.factory import Models
-from ax.modelbridge.generation_strategy import GenerationStep, GenerationStrategy
+from ax.modelbridge.factory import Generators
+from ax.generation_strategy.generation_strategy import GenerationStep, GenerationStrategy
+
 
 gs = GenerationStrategy(
     steps=[
