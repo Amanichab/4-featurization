@@ -1,5 +1,5 @@
 -e .  # Install local package in editable mode
-ax-platform>=0.3.0
+ax-platform<1
 matplotlib>=3.5.0
 CBFV>=0.1.0
 pytest>=7.0.0
